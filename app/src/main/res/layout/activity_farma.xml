@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#86DFFF"
+    android:foregroundTint="#FFFFFF"
+    tools:context=".FarmaActivity">
+
+    <TextView
+        android:id="@+id/farmaid"
+        android:layout_width="230dp"
+        android:layout_height="99dp"
+        android:layout_marginBottom="430dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Farma"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.004" />
+
+    <TextView
+        android:id="@+id/tekst"
+        android:layout_width="297dp"
+        android:layout_height="105dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Jakie zwierzę słyszysz?"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/farmaid"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageButton
+        android:id="@+id/ges"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="128dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kogut"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ges" />
+
+    <ImageButton
+        android:id="@+id/kaczka"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="128dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/kon"
+        app:layout_constraintTop_toBottomOf="@+id/krowa"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/kaczka" />
+
+    <ImageButton
+        android:id="@+id/kon"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="128dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/ges"
+        app:layout_constraintTop_toBottomOf="@+id/kot"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/kon" />
+
+    <ImageButton
+        android:id="@+id/kogut"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="260dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/swinia"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/kogut" />
+
+    <ImageButton
+        android:id="@+id/kot"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="260dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/kogut"
+        app:layout_constraintTop_toBottomOf="@+id/pies"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/kot" />
+
+    <ImageButton
+        android:id="@+id/krowa"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="260dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/kot"
+        app:layout_constraintTop_toBottomOf="@+id/owca"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/krowa" />
+
+    <ImageButton
+        android:id="@+id/pies"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="368dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/swinia"
+        app:layout_constraintTop_toBottomOf="@+id/tekst"
+        app:srcCompat="@drawable/pies" />
+
+    <ImageButton
+        android:id="@+id/swinia"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="368dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tekst"
+        app:srcCompat="@drawable/swinia" />
+
+    <ImageButton
+        android:id="@+id/owca"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="368dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/pies"
+        app:layout_constraintTop_toBottomOf="@+id/tekst"
+        app:srcCompat="@drawable/owca" />
+
+    <Button
+        android:id="@+id/wyjscie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTint="#E91E63"
+        android:text="Wyjście"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/play"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageButton
+        android:id="@+id/play"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/farmaid"
+        app:layout_constraintVertical_bias="0.894"
+        app:srcCompat="@drawable/play" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
